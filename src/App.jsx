@@ -8,10 +8,9 @@ function App() {
     <>
       
       <h1>Vite + React</h1>
-      <h2>Welcome</h2>
+      
 
-      {/* nav section */}
-      <h1>This is optional messege </h1>
+      
       
       
     </>
