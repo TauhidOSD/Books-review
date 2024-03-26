@@ -1,0 +1,80 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "https://i.postimg.cc/XJYthk5Q/kindpng-7318921.png",
+        "review": "A timeless classic portraying the decadence of the Jazz Age.",
+        "totalPages": 180,
+        "rating": 8.58,
+        "category": "Fiction",
+        "tags": ["Classic", "Romance"],
+        "publisher": "Scribner",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": 2,
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.postimg.cc/SsP1PFkx/kindpng-5624060-1.png",
+        "review": "An insightful portrayal of racial injustice and moral growth.",
+        "totalPages": 281,
+        "rating": 9.88,
+        "category": "Nice",
+        "tags": ["Classic", "Coming-of-age", "Social Issues"],
+        "publisher": "J. B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": 3,
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "https://i.postimg.cc/QtVh53f8/kindpng-1064993.png",
+        "review": "A chilling dystopian vision of a totalitarian society.",
+        "totalPages": 328,
+        "rating": 4.77,
+        "category": "Fantastic",
+        "tags": ["Dystopian", "Political"],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": 4,
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "https://i.postimg.cc/DwgTMZDf/kindpng-2193744-1.png",
+        "review": "A compelling exploration of teenage angst and alienation.",
+        "totalPages": 224,
+        "rating": 4.40,
+        "category": "Beautifull",
+        "tags": ["Coming-of-age", "Literary"],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 5,
+        "bookName": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "https://i.postimg.cc/T1CVsnrq/kindpng-4022054-1.png",
+        "review": "A delightful romantic comedy with timeless wit and charm.",
+        "totalPages": 279,
+        "rating": 3.65,
+        "category": "Brelient",
+        "tags": ["Romance", "Classic"],
+        "publisher": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.postimg.cc/D0bpkjwd/kindpng-4945926-1.png",
+        "review": "An enchanting adventure filled with magic, courage, and friendship.",
+        "totalPages": 310,
+        "rating": 6.95,
+        "category": "Fantasy",
+        "tags": ["Adventure", "Epic", "Middle Earth"],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    }
+]

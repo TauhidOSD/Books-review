@@ -1,21 +1,28 @@
+import { useEffect, useState } from "react";
+import Cards from "../Cards/Cards";
 
 
 const BooksCard = () => {
+const [books,setBooks]=useState([]);
+useEffect(() =>{
+    fetch("./Books.json")
+    .then(res => res.json())
+    .then(data =>setBooks(data));
+   
+},[])
+
     return (
-        <div class="card w-96 bg-base-100 shadow-xl">
-        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-        <div class="card-body">
-          <h2 class="card-title">
-            Shoes!
-            <div class="badge badge-secondary">NEW</div>
-          </h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div class="card-actions justify-between">
-            <div class="badge badge-outline">Fashion</div> 
-            <div class="badge badge-outline">Products</div>
-          </div>
+        <section className="">
+        <div className="container p-6 mx-auto space-y-8">
+            
+            <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-3">
+                    {books.map(pd=><Cards books={pd} ></Cards>)}
+               
+               
+              
+            </div>
         </div>
-      </div>
+    </section>
     );
 };
 
