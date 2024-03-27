@@ -1,10 +1,10 @@
 [
     {
-        "bookId": 1,
+        "bookId":" 1",
         "bookName": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
         "image": "https://i.postimg.cc/XJYthk5Q/kindpng-7318921.png",
-        "review": "A timeless classic portraying the decadence of the Jazz Age.",
+        "review": "A gripping narrative that captivates from start to finish. Characters feel incredibly authentic, drawing readers into their world effortlessly. Must-read for its exceptional storytelling. Surpasses all expectations, leaving a lasting impression. A literary gem that resonates deeply, evoking a range of emotions.",
         "totalPages": 180,
         "rating": 8.58,
         "category": "Fiction",
@@ -13,11 +13,11 @@
         "yearOfPublishing": 1925
     },
     {
-        "bookId": 2,
+        "bookId":" 2",
         "bookName": "To Kill a Mockingbird",
         "author": "Harper Lee",
         "image": "https://i.postimg.cc/SsP1PFkx/kindpng-5624060-1.png",
-        "review": "An insightful portrayal of racial injustice and moral growth.",
+        "review": "An enthralling read! Couldn't put it down till the very end. The author's writing style is captivating, and the characters feel so real. Highly recommended for anyone interested in the genre. Every page kept me hooked, leaving me eager for more.",
         "totalPages": 281,
         "rating": 9.88,
         "category": "Nice",
@@ -26,11 +26,11 @@
         "yearOfPublishing": 1960
     },
     {
-        "bookId": 3,
+        "bookId":" 3",
         "bookName": "1984",
         "author": "George Orwell",
         "image": "https://i.postimg.cc/QtVh53f8/kindpng-1064993.png",
-        "review": "A chilling dystopian vision of a totalitarian society.",
+        "review":"A must-read for anyone interested in the genre. Highly recommended! Absolutely brilliant! Every page kept me hooked, and I couldn't stop thinking about it afterward. I laughed, I cried, and I couldn't put it down. Simply amazing!",
         "totalPages": 328,
         "rating": 4.77,
         "category": "Fantastic",
@@ -39,11 +39,11 @@
         "yearOfPublishing": 1949
     },
     {
-        "bookId": 4,
+        "bookId": "4",
         "bookName": "The Catcher in the Rye",
         "author": "J.D. Salinger",
         "image": "https://i.postimg.cc/DwgTMZDf/kindpng-2193744-1.png",
-        "review": "A compelling exploration of teenage angst and alienation.",
+        "review":"The book exceeded all my expectations. Can't wait to read more from this author. I was completely absorbed from the very first page. The characters are richly developed, and the plot twists kept me guessing until the end. Highly recommended!" ,
         "totalPages": 224,
         "rating": 4.40,
         "category": "Beautifull",
@@ -52,11 +52,11 @@
         "yearOfPublishing": 1951
     },
     {
-        "bookId": 5,
+        "bookId": "5",
         "bookName": "Pride and Prejudice",
         "author": "Jane Austen",
         "image": "https://i.postimg.cc/T1CVsnrq/kindpng-4022054-1.png",
-        "review": "A delightful romantic comedy with timeless wit and charm.",
+        "review": "A masterpiece of storytelling! The author skillfully weaves together a complex narrative filled with intrigue and suspense. The characters are vividly drawn, and the world-building is immersive. This book will keep you on the edge of your seat until the very last page.",
         "totalPages": 279,
         "rating": 3.65,
         "category": "Brelient",
@@ -65,16 +65,17 @@
         "yearOfPublishing": 1813
     },
     {
-        "bookId": 6,
+        "bookId":" 6",
         "bookName": "The Hobbit",
         "author": "J.R.R. Tolkien",
         "image": "https://i.postimg.cc/D0bpkjwd/kindpng-4945926-1.png",
-        "review": "An enchanting adventure filled with magic, courage, and friendship.",
+        "review": "A compelling tale that will stay with you long after you've turned the final page. The prose is elegant, and the plot is thought-provoking. The characters are multi-dimensional, and their journeys are both heart-wrenching and inspiring. A true literary gem that deserves all the praise it receives.",
         "totalPages": 310,
         "rating": 6.95,
         "category": "Fantasy",
         "tags": ["Adventure", "Epic", "Middle Earth"],
         "publisher": "George Allen & Unwin",
         "yearOfPublishing": 1937
+        
     }
 ]

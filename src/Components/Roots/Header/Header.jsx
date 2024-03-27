@@ -28,7 +28,7 @@ const Header = () => {
                    {links}
                 </ul>
             </div>
-            <div class="navbar-end">
+            <div class="navbar-end gap-3">
                 <a class="btn bg-[#23BE0AFF]">Sign in</a>
                 <a class="btn bg-[#59C6D2FF]">Sign Up</a>
             </div>

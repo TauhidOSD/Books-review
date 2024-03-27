@@ -10,7 +10,7 @@ const Cards = ({books}) => {
 
         <article className="flex flex-col border-2 rounded-xl transition border-2 hover:scale-105 border-primary  hover:border-secondar border-opacity-30">
         <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum ">
-            <img alt="" className="object-cover w-1/2 h-52 bg-gray-500 mx-auto mt-4 rounded-xl" src={books.image} />
+            <img alt="" className="object-cover w-1/2 h-52  bg-gray-500 mx-auto mt-4 rounded-xl" src={books.image} />
         </a>
         <div className="flex flex-col flex-1 p-6">
             <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
@@ -21,7 +21,7 @@ const Cards = ({books}) => {
             </div>
             
             
-            <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">{books.review}</h3>
+            <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">{books.review.slice(0, 60)}</h3>
             <h2>By: {books.author}</h2>
             <div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
                 
@@ -36,6 +36,11 @@ const Cards = ({books}) => {
         </Link>
          
       </div>
+
+
+
+
+
     );
 };
 
