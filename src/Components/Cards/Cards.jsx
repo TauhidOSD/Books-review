@@ -1,8 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Cards = ({books}) => {
+    console.log(books);
+    
     return (
-        <article className="flex flex-col border-2 rounded-xl ">
+      <div>
+        <Link to={`/${books.bookId}`}>
+
+        <article className="flex flex-col border-2 rounded-xl transition border-2 hover:scale-105 border-primary  hover:border-secondar border-opacity-30">
         <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum ">
             <img alt="" className="object-cover w-1/2 h-52 bg-gray-500 mx-auto mt-4 rounded-xl" src={books.image} />
         </a>
@@ -27,6 +33,9 @@ const Cards = ({books}) => {
             </div>
         </div>
     </article> 
+        </Link>
+         
+      </div>
     );
 };
 

@@ -13,6 +13,15 @@ import Home from './Components/Roots/Home/Home';
 import ListedBooks from './Components/Roots/ListedBooks/ListedBooks';
 import PagesRead from './Components/PagesRead/PagesRead';
 
+import Details from './Components/Details/Details';
+
+
+
+
+
+
+
+
 
 
 const router = createBrowserRouter([
@@ -28,11 +37,19 @@ const router = createBrowserRouter([
       element:<ListedBooks></ListedBooks>
 
       },
+    
       {
-        path:"/pages",
+        path:'/pages',
         element:<PagesRead></PagesRead>
 
-      }
+      },
+      {
+       path:'/:bookId',
+       element:<Details></Details>
+      
+
+      },
+     
     ]
   },
 ]);
