@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
 
     const links = <>
-        <li><NavLink to="/">Home</NavLink></li>
+        <li ><NavLink to="/"><span className="text-black font-bold">Home</span></NavLink></li>
         <li><NavLink to="/listed">Listed Books</NavLink></li>
         <li><NavLink to="/pages">Pages to Read</NavLink></li>
 
@@ -20,12 +20,13 @@ const Header = () => {
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         {links}
                     </ul>
-                </div>
-                <a class="btn btn-ghost text-xl">Book Vibe</a>
+                </div> 
+                {/* <a class="btn btn-ghost text-xl tex">Book Vibe</a> */}
+                <div><h1 className="text-xl font-bold">Book Vibe</h1></div>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
-                   {links}
+                    {links}
                 </ul>
             </div>
             <div class="navbar-end gap-3">

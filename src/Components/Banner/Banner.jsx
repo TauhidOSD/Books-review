@@ -9,7 +9,7 @@ const Banner = () => {
 // </>
 
     return (
-        <div class="hero min-h-screen bg-gray-400 mt-6 ">
+        <div class="hero min-h-screen bg-slate-50 mt-6  rounded-2xl">
         <div class="hero-content flex-col lg:flex-row-reverse gap-x-52 ">
           <img src="https://i.postimg.cc/qqHPT0SZ/pngwing-1.png" class="max-w-sm rounded-lg shadow-2xl" />
           <div>
