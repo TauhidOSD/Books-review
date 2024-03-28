@@ -43,6 +43,7 @@ const router = createBrowserRouter([
     
       {
         path:'/pages',
+       
         element:<PagesRead></PagesRead>
 
       },
@@ -53,10 +54,7 @@ const router = createBrowserRouter([
       
 
       },
-      // {
-      //   path:'/list',
-      //   element:
-      // }
+      
 
      
     ]
