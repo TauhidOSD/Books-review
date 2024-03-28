@@ -1,10 +1,14 @@
+import { LineChart } from "recharts";
+
 
 
 const PagesRead = () => {
     return (
-        <div>
-            <h2>This is pages read</h2>
-        </div>
+        <>
+       <div><h1>paichart</h1></div>
+        </>
+        
+        
     );
 };
 
